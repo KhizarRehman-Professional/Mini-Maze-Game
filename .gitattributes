@@ -1,0 +1,14 @@
+```gitattributes
+# Detect C++ files properly
+*.cpp linguist-detectable=true
+*.h linguist-detectable=true
+*.hpp linguist-detectable=true
+
+# Documentation shouldn't count as a coding language
+*.md linguist-documentation=true
+
+# Compiled binaries are NOT source code - hide them
+*.exe linguist-generated=true
+*.out linguist-generated=true
+*.o linguist-generated=true
+*.obj linguist-generated=true
